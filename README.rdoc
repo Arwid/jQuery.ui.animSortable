@@ -6,6 +6,8 @@ updated:: 9 May 2011
 
 This plugin extends $.ui.sortable and animates the scrolling. The source code is currently poorly documented but will eventually mature as this is a useful plugin. 
 
+It requires jQuery.ui.sortableFix[https://github.com/Arwid/jQuery.ui.sortableFix] for it to work correctly.
+
 = Usage
 Simply include the file after $.ui.sortable is included and then:
 
