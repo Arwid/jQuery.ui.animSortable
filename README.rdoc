@@ -1,0 +1,24 @@
+= jQuery.ui.animSortable
+
+author:: Arwid Bancewicz http://arwid.ca
+version:: 0.1
+updated:: 9 May 2011
+
+This plugin extends $.ui.sortable and animates the scrolling. The source code is currently poorly documented but will eventually mature as this is a useful plugin. 
+
+= Usage
+Simply include the file after $.ui.sortable is included and then:
+
+  $(".some_list").animSortable({
+    connectWith: ".some_list",
+    items: "li:not(removed)",
+    tolerance: "pointer",
+    appendTo: "body",
+    helper: "clone"
+  });
+
+* Refer to http://jqueryui.com/demos/sortable/ for its documentation.
+
+= License
+
+jQuery.ui.animSortable is covered by the MIT License.
